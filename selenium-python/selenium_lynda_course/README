@@ -29,3 +29,9 @@ Project Structure
  
  
 
+To Do:
+1. Add further implementation to User page, add Login Page, All Users Page, Articles Page, and locators as well
+2. Create tests for:
+ - login
+ - logout
+ - articles, create article, delete article, edit article
