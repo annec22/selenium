@@ -1,0 +1,31 @@
+The contents of this selenium scripts are initially based on LinkedIn Learning Course: https://www.linkedin.com/learning/learning-selenium
+
+The programming language used here is Python (I have converted the initial course content from Ruby to Python).
+
+I used Python Unittest and Page Object Pattern to design the selenium tests. 
+
+The AUT is https://selenium-blog.herokuapp.com/
+
+
+
+
+Complete list of references:
+Selenium Website 
+- https://www.seleniumhq.org/
+
+Python Selenium API 
+- http://selenium-python.readthedocs.io/api.html
+- https://seleniumhq.github.io/selenium/docs/api/py/index.html
+
+
+Project Structure
+ - src/sample_blog/blog_test.py  - Test file using unittest framework
+ - src/sample_blog/blog_pages.py - (Page Object Pattern) Page classes for Page, Sign-up and User
+ - src/sample_blog/blog_locators - (Page Object Pattern) Selector classes for Sign-up fields and user fields
+ 
+ 
+ Notes:
+  - use "*" to pass tuple to a function i.e. (By.ID, "username")
+ 
+ 
+
